@@ -18,6 +18,7 @@ import { FieldType } from '@ngx-formly/core';
   [monthNavigator]="to.monthNavigator"
   [yearNavigator]="to.yearNavigator"
   [yearRange]="to.yearRange"
+  [placeholder]="to.placeholder"
   [formControl]="formControl"
   [formlyAttributes]="field">
   </p-calendar>
