@@ -29,7 +29,7 @@ export class AppComponent {
         selectOtherMonths: false,
         monthNavigator: false,
         yearNavigator: false,
-        yearRange: "2020:2030",
+        yearRange: '2020:2030',
         inline: false,
       },
     },
