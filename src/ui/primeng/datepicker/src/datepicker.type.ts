@@ -12,6 +12,8 @@ import { FieldType } from '@ngx-formly/core';
   [showButtonBar]="to.showButtonBar"
   [showOtherMonths]="to.showOtherMonths"
   [selectOtherMonths]="to.selectOtherMonths"
+  [selectionMode]="to.selectionMode || 'single'"
+  [numberOfMonths]="to.numberOfMonths"
   [inline]="to.inline"
   [readonlyInput]="to.readonlyInput"
   [touchUI]="to.touchUI"

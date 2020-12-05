@@ -30,4 +30,4 @@ import { DatepickerExampleConfig } from './datepicker';
   ],
   declarations: [AppComponent],
 })
-export class ConfigModule { }
+export class ConfigModule {}
