@@ -5,10 +5,23 @@ import { FieldType } from '@ngx-formly/core';
   selector: 'formly-field-primeng-datepicker',
   template: `
   <p-calendar 
-      [formControl]="formControl"
-      [formlyAttributes]="field">
+  [dateFormat]="to.dateFormat"
+  [hourFormat]="to.hourFormat"
+  [showTime]="to.showTime"
+  [showIcon]="to.showIcon"
+  [showButtonBar]="to.showButtonBar"
+  [showOtherMonths]="to.showOtherMonths"
+  [selectOtherMonths]="to.selectOtherMonths"
+  [inline]="to.inline"
+  [readonlyInput]="to.readonlyInput"
+  [touchUI]="to.touchUI"
+  [monthNavigator]="to.monthNavigator"
+  [yearNavigator]="to.yearNavigator"
+  [yearRange]="to.yearRange"
+  [formControl]="formControl"
+  [formlyAttributes]="field">
   </p-calendar>
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class FormlyDatePicker extends FieldType {}
+export class FormlyDatePicker extends FieldType { }
