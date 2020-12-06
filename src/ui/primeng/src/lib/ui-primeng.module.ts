@@ -5,7 +5,8 @@ import { FormlyTextAreaModule } from '@ngx-formly/primeng/textarea';
 import { FormlyRadioModule } from '@ngx-formly/primeng/radio';
 import { FormlyCheckboxModule } from '@ngx-formly/primeng/checkbox';
 import { FormlySelectModule } from '@ngx-formly/primeng/select';
-import { FormlyDatePickerModule } from '@ngx-formly/primeng/datepicker'
+import { FormlyDatePickerModule } from '@ngx-formly/primeng/datepicker';
+import { FormlyInputNumberModule } from '@ngx-formly/primeng/inputnumber';
 
 @NgModule({
   imports: [
@@ -16,6 +17,7 @@ import { FormlyDatePickerModule } from '@ngx-formly/primeng/datepicker'
     FormlyCheckboxModule,
     FormlySelectModule,
     FormlyDatePickerModule,
+    FormlyInputNumberModule,
   ],
 })
 export class FormlyPrimeNGModule {}
